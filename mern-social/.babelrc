@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": "> 0.25%, not dead" // This is a common browserslist query
+      // This translates to: target browsers that cover more than 0.25% of global usage, and are not officially "dead" (no longer supported).
+      // You can customize this based on your audience.
+    }],
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ],
+  "plugins": []
+}
